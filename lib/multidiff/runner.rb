@@ -1,11 +1,11 @@
-module Rdiff
+module Multidiff
   class Runner
     def self.invoke(args)
       data = read_files(args)
 
       abort 'Nothing to compare' if data.count < 2
 
-      puts Rdiff::Differ.diff(data).map { |diff| diff.join("\n") }.join("\n\n")
+      puts Multidiff::Differ.diff(data).map { |diff| diff.join("\n") }.join("\n\n")
     end
 
     class << self

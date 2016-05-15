@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rdiff/version'
+require 'multidiff/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'rdiff'
-  spec.version       = Rdiff::Version::STRING
+  spec.name          = 'multidiff'
+  spec.version       = Multidiff::Version::STRING
   spec.authors       = ['Maksym Pugach']
   spec.email         = ['pugach.m@gmail.com']
 
   spec.summary       = 'A tool to compare files and print the results in custom format'
-  spec.homepage      = 'https://github.com/mpugach/rdiff'
+  spec.homepage      = 'https://github.com/mpugach/multidiff'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

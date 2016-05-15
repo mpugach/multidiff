@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'support/helper_methods'
 
-describe Rdiff::Runner do
+describe Multidiff::Runner do
   describe 'should print diff' do
     let(:first_v_second) do
       [

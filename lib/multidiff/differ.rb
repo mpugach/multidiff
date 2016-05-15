@@ -1,6 +1,6 @@
 require 'diff/lcs'
 
-module Rdiff
+module Multidiff
   class Differ
     OVERRIDE_ACTION = Hash.new { |hash, key| hash[key] = key }.merge('!' => '*', '=' => ' ')
 

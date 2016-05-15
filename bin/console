@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'rdiff'
+require 'multidiff'
 require 'pry'
 
 Pry.start

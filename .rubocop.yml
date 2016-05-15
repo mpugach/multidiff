@@ -2,10 +2,11 @@ AllCops:
   Include:
     - '**/Rakefile'
     - '**/*.gemspec'
+    - 'exe/*'
 
   Exclude:
     - 'spec/fixtures/**/*'
-    - 'bin/**/*'
+    - 'bin/setup'
     - !ruby/regexp /old_and_unused\.rb$/
 
   DisplayStyleGuide: true
