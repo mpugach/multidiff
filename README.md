@@ -1,3 +1,8 @@
+[![Build Status](https://secure.travis-ci.org/mpugach/rdiff.png?branch=master)](https://travis-ci.org/mpugach/rdiff)
+[![Code Climate](https://codeclimate.com/github/mpugach/rdiff/badges/gpa.svg)](https://codeclimate.com/github/mpugach/rdiff)
+[![Test Coverage](https://codeclimate.com/github/mpugach/rdiff/badges/coverage.svg)](https://codeclimate.com/github/mpugach/rdiff/coverage)
+[![Issue Count](https://codeclimate.com/github/mpugach/rdiff/badges/issue_count.svg)](https://codeclimate.com/github/mpugach/rdiff)
+
 # Rdiff
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rdiff`. To experiment with that code, run `bin/console` for an interactive prompt.
