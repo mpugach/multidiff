@@ -1,7 +1,7 @@
-[![Build Status](https://secure.travis-ci.org/mpugach/rdiff.png?branch=master)](https://travis-ci.org/mpugach/rdiff)
-[![Code Climate](https://codeclimate.com/github/mpugach/rdiff/badges/gpa.svg)](https://codeclimate.com/github/mpugach/rdiff)
-[![Test Coverage](https://codeclimate.com/github/mpugach/rdiff/badges/coverage.svg)](https://codeclimate.com/github/mpugach/rdiff/coverage)
-[![Issue Count](https://codeclimate.com/github/mpugach/rdiff/badges/issue_count.svg)](https://codeclimate.com/github/mpugach/rdiff)
+[![Build Status](https://secure.travis-ci.org/mpugach/multidiff.png?branch=master)](https://travis-ci.org/mpugach/multidiff)
+[![Code Climate](https://codeclimate.com/github/mpugach/multidiff/badges/gpa.svg)](https://codeclimate.com/github/mpugach/multidiff)
+[![Test Coverage](https://codeclimate.com/github/mpugach/multidiff/badges/coverage.svg)](https://codeclimate.com/github/mpugach/multidiff/coverage)
+[![Issue Count](https://codeclimate.com/github/mpugach/multidiff/badges/issue_count.svg)](https://codeclimate.com/github/mpugach/multidiff)
 
 # Rdiff
 
