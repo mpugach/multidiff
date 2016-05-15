@@ -1,0 +1,20 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/*.gemspec'
+
+  Exclude:
+    - 'spec/fixtures/**/*'
+    - 'bin/**/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+  DisplayStyleGuide: true
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
