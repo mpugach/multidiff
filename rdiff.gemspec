@@ -5,7 +5,7 @@ require 'rdiff/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'rdiff'
-  spec.version       = Rdiff::VERSION
+  spec.version       = Rdiff::Version::STRING
   spec.authors       = ['Maksym Pugach']
   spec.email         = ['pugach.m@gmail.com']
 
