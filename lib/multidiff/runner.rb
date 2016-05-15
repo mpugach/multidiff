@@ -5,7 +5,7 @@ module Multidiff
 
       abort 'Nothing to compare' if data.count < 2
 
-      puts Multidiff::Differ.diff(data).map { |diff| diff.join("\n") }.join("\n\n")
+      puts Multidiff::Differ.pretty_diff(data).map { |diff| diff.join("\n") }.join("\n\n")
     end
 
     class << self

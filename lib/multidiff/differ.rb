@@ -7,8 +7,12 @@ module Multidiff
     def self.diff(files)
       base = files.shift
 
-      files.map do |file|
-        Diff::LCS.sdiff(base, file).each_with_index.map do |change, line|
+      files.map { |file| Diff::LCS.sdiff(base, file) }
+    end
+
+    def self.pretty_diff(files)
+      diff(files).map do |changes|
+        changes.each_with_index.map do |change, line|
           text = if change.action == '!'
                    "#{change.old_element}|#{change.new_element}"
                  else
